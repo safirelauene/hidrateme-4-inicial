@@ -1,0 +1,50 @@
+<html>
+
+<head>
+  <title>Hidrate-me</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Olá, Safire!</h1>
+  </header>
+  <main>
+    <div class="status-content">
+      <div>
+        <img src="./imagens/copo.svg" />
+        <p id="ja-bebi" class="text--small text--bold">1000ml</p>
+      </div>
+      <div>
+        <img src="./imagens/gota.svg" />
+        <p id="meta" class="text--small text--bold">2000ml</p>
+      </div>
+    </div>
+
+    <div class="progressbar" role="progressbar" title="Quantidade que bebi" aria-valuenow="1000" aria-valuemin="0"
+      aria-valuemax="2000">
+      <div class="progressbar-value"></div>
+    </div>
+
+    <p class="text--small">Hoje eu ainda preciso beber:</p>
+    <p id="ainda-falta-beber" class="text--medium text--bold">2000ml</p>
+
+    <button class="button-add" title="Adicionar a quantidade de água que acabou de beber">
+      <img src="./imagens/botao-adicionar.svg" />
+    </button>
+
+    <img class="seta-cima" src="./imagens/seta-cima.svg" />
+
+    <p class="text--small">
+      Adicionar a quantidade de água que acabou de beber
+    </p>
+  </main>
+  <footer id="footer">
+    <input type="number" />
+    <button type="button">Adicionar</button>
+  </footer>
+</body>
+
+</html>
